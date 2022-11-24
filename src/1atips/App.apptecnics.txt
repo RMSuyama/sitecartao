@@ -1,0 +1,6 @@
+Ctrl + ; = comentários
+npm start = inicializa build do site (construção)
+
+Só modifiicar o App.css e o app.js
+
+Ctrl + c = para o build

@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
 
 .App-logo {
@@ -9,19 +12,24 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 30s linear;
   }
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.linkContainer{
+  display: flex;
+  height: 200px;
+  width: 100vw;
 }
 
 .App-link {
@@ -35,4 +43,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* CUSTOM BG */
+
+.fundoContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.imgContainer{
+  top: 0;
+  width: 100%;
+}
+
+.fundoBg{
+  width: 100%;
+  height: auto;
+}
+
+.floatingLettersContainer{
+  width: 100vw;
+  position: absolute;
+  height: 400px;
+  top: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.rContainer{
+  height: 300px;
+  width: 300px;
+  margin-top: -10%;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rContainer {
+    animation: rContainer infinite 13s linear;
+  }
+
+  .sContainer{
+    animation: sContainer infinite 13s linear;
+
+  }
+}
+
+@keyframes rContainer {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes sContainer {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.sContainer{
+  height: 300px;
+  width: 300px;
 }
