@@ -18,41 +18,27 @@ function App() {
 
 
     <div className="App">
-      {/* <img src={logo2} className="App-logo2" alt="logo2" /> */}
-      {/* <img src={logo} className="App-logo" alt="logo" /> */}
+
       <div className='fundoContainer'>
         <div className='imgContainer'>
           <img className='fundoBg' src={fundo} />
         </div>
         <div className='floatingLettersContainer'>
-          {/* <div className='rContainer'> */}
             <img className='rContainer' src={rLetter} />
-          {/* </div> */}
-          {/* <div className='sContainer'> */}
             <img className='sContainer' src={sLetter} />
-          {/* </div> */}
-        </div>
-      </div>
-      {/* <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p> */}
-      <div className='linkContainer'>
-        <a
+          <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://api.whatsapp.com/send?phone=5513996267989"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reacttt
+          <h1> Whatsapp me</h1>
         </a>
-
+        </div>
       </div>
-
-      {/* <div className='' >
-          <h1>
-            olaaaaaaa
-          </h1>
-        </div> */}
+        {/* ////aqui seria a div do linkContainer */}
+      <div className='linkContainer'>
+      </div>
     </div>
   );
 }

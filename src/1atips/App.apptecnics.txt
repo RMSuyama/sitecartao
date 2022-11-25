@@ -3,7 +3,7 @@ npm start = inicializa build do site (construção)
 
 Só modifiicar o App.css e o app.js
 
-Ctrl + c = para o build
+Ctrl + c = para parar o build
 
 
 
@@ -11,8 +11,14 @@ atualizar no github
 
 https://github.com/RMSuyama/sitecartao
 
+git pull "puxa do repositório versão mais atual" (terminal)
+
+
+
 "atualiza no git hub" terceiro icone
-git push
+
+escrever sempre commit em cima da "confirmação"
+git push (terminal)
 
 
 
