@@ -75,22 +75,23 @@
 }
 
 .rContainer{
-  height: 300px;
-  width: 300px;
-  margin-top: -10%;
-
+  height: 600px;
+  width: 600px;
+  margin-top: -20%;
+  margin-left: auto;
 }
 
-.sContainer{
-  height: 300px;
-  width: 300px;
+/* .sContainer{
+  height: 200px;
+  width: 200px;
   margin-top: 0%;
+  } */
 
-}
-
-.h1{
+.App-link{
   height: auto;
-  margin-top: 20%;
+  width: auto;
+  margin-top: 10%;
+  margin-left: 30%;
 }
 
 
@@ -99,13 +100,17 @@
     animation: rContainer infinite 13s linear;
   }
 
-  .sContainer{
-    animation: sContainer infinite 13s linear;
+  /* .sContainer{
+    animation: sContainer infinite 13s linear; */
 
-  }
+  /* } */
+} .whats{
+    margin-top: 20;
+
+;
 }
 /* //// referente às letras */
-@keyframes rContainer {
+/* @keyframes rContainer {
   from {
     transform: rotate(0deg);
   }
@@ -120,10 +125,10 @@
   to {
     transform: rotate(0deg);
   }
-}
+} */
 
-.sContainer{
+/* .sContainer{
   height: 300px;
   width: 300px;
-}
+} */
 
