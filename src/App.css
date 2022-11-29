@@ -10,12 +10,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 30s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   display: flex;
@@ -26,7 +20,7 @@
   min-height: 100vh;
 }
 
-.linkContainer{
+.linkContainer {
   display: flex;
   height: 200px;
   width: 100vw;
@@ -34,15 +28,10 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 100%;
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 20%;
 }
 
 
@@ -55,80 +44,91 @@
   position: relative;
 }
 
-.imgContainer{
-  top: 0;
-  width: 100%;
-}
-
-.fundoBg{
+.imgContainer {
+  top: 100%;
   width: auto;
   height: auto;
+  /* position: absolute; */
 }
 
-.floatingLettersContainer{
+.fundoBg {
+  width: 100%;
+  height: 90%;
+}
+
+.floatingLettersContainer {
   width: 100vw;
   position: absolute;
-  height: 400px;
+  height: 0vw;
   top: 20%;
   display: flex;
   justify-content: center;
 }
 
-.rContainer{
-  height: 500px;
-  width: 500px;
-  margin-top: -20%;
-  margin-left: 5%;
-}
-
-/* .sContainer{
+.rContainer {
   height: 200px;
-  width: 200px;
-  margin-top: 0%;
-  } */
-
-.App-link{
-  height: auto;
-  width: auto;
-  margin-top: 10%;
-  margin-left: 20%;
+  width: 400px;
+  margin-top: 1%;
+  margin-left: 1%;
 }
 
+.cabeçalho{
+  font-size: small;
+  font-style: normal;
+  font-family: Cambria;
+  margin-top: 10%;
+  margin-left: 20%
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .rContainer {
     animation: rContainer infinite 13s linear;
   }
 
-  /* .sContainer{
-    animation: sContainer infinite 13s linear; */
-
-  /* } */
-} .whats{
-    margin-top: 20;
-
-;
 }
-/* //// referente às letras */
-/* @keyframes rContainer {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.whats {
+  margin-top: 0%;
+  margin-left: 0%;
+  height: 150px;
+  width: 150px;
 }
-@keyframes sContainer {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-} */
 
-/* .sContainer{
-  height: 300px;
-  width: 300px;
-} */
+.insta {
+  margin-top: -80%;
+  margin-left: 0%;
+  height: 170px;
+  width: 170px;
+} 
 
+.hello{
+  border-style: double;
+  border-color: blue;
+  border-left-style:groove;
+  initial-letter-align:inherit;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  margin-right: 34%;
+}
+
+.Title{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(212, 202, 202);
+  color:#070707;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.footer{
+  
+  height: 0%;
+  width: 100%;
+  background-color: rgb(212, 202, 202);
+  color:#070707;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
