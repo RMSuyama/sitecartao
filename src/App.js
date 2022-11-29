@@ -26,16 +26,16 @@ function App() {
         <div className='floatingLettersContainer'>
             <img className='rContainer' src={rLetter} />
             {/* <img className='sContainer' src={sLetter} /> */}
-          <a
-          className="App-link"
-          href="https://api.whatsapp.com/send?phone=5513996267989"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img className='whats' src={whats} />
-        </a>
+            <a
+              className="App-link"
+              href="https://api.whatsapp.com/send?phone=5513996267989"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className='whats' src={whats} />
+            </a>
+          </div>
         </div>
-      </div>
         {/* ////aqui seria a div do linkContainer */}
       {/* <div className='linkContainer'>
       </div> */}
