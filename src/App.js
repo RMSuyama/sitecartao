@@ -1,7 +1,3 @@
-import fundo from './assets/FUNDO.png'
-import rLetter from './assets/R.png'
-import whats from './assets/whats.png'
-import insta from './assets/insta.png'
 import React from 'react'
 import './App.css'
 import Footer from './components/layout/Footer'
