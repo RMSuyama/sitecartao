@@ -9,12 +9,10 @@ function Header() {
 
     return(
         <div className="theader">
-          <div classname="insta2">
-          <FaInstagramSquare/>
-          </div>
-        <img className='rContainer' src={rLetter} />
+
+        <img className='logo' src={rLetter} />
                 <a
-              className="App-link"
+              className="Whatsapp"
               href="https://api.whatsapp.com/send?phone=5513996267989"
               target="_blank"
               rel="noopener noreferrer"
@@ -22,7 +20,7 @@ function Header() {
               <img className='whats' src={whats} />
             </a>
             <a
-              className="App-link"
+              className="Instagram"
               href="https://www.instagram.com/direct/inbox/"
               target="_blank"
               rel="noopener noreferrer"
