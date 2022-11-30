@@ -1,13 +1,15 @@
-import './Navbar.css'
+import './Header.css'
 import rLetter from './assets/R.png'
 import whats from './assets/whats.png'
 import insta from './assets/insta.png'
+import {FaInstagramSquare} from "react-icons/fa";
 
 
-function Navbar() {
+function Header() {
 
     return(
-        <div className="tnavbar">
+        <div className="theader">
+          <FaInstagramSquare/>
         <img className='rContainer' src={rLetter} />
                 <a
               className="App-link"
@@ -30,4 +32,4 @@ function Navbar() {
 
 }
 
-export default Navbar
+export default Header
