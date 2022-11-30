@@ -9,7 +9,9 @@ function Header() {
 
     return(
         <div className="theader">
+          <div classname="insta2">
           <FaInstagramSquare/>
+          </div>
         <img className='rContainer' src={rLetter} />
                 <a
               className="App-link"

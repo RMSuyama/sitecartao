@@ -21,7 +21,7 @@
   width: 100%;
   justify-self: center;
   align-self: center;
-  background-color: yellow;
+  background-color: rgb(136, 136, 9);
   grid-area: header;
   border-radius: 20px;
 
