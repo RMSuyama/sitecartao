@@ -21,7 +21,7 @@ function App() {
         <Body/>
         </div>
         <div className='aside'>
-          aside
+        
         </div>
         <div className='footer'>
         <Footer/>
