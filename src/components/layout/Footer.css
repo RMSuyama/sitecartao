@@ -1,11 +1,12 @@
 .tfooter{
 
-    border-radius: 40px;
-    background-color: rgb(0, 0, 0);
     text-align: center;
-    width: auto;
-    margin: auto;
-    color:aliceblue
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1;
+    padding: 20px 40px;
     
 }
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import './App.css'
+import Body from './components/layout/Body';
+import Footer from './components/layout/Footer';
 // import Footer from './components/layout/Footer'
 // import Body from './components/layout/Body'
 import Header from './components/layout/Header'
@@ -15,13 +17,14 @@ function App() {
           <Header/>
         </div>
         <div className='main'>
-          main
+        <main/>
+        <Body/>
         </div>
         <div className='aside'>
           aside
         </div>
         <div className='footer'>
-          footer
+        <Footer/>
         </div>
         </div></>
   );

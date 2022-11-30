@@ -4,8 +4,8 @@ function Footer() {
 
     return(
         <div className="tfooter">
-        <h1> Espaço reservado para o Footer </h1>
-        <p>Advocacia e Consultoria Jurídica</p>
+        <h1> Rafael Suyama </h1>
+        <p>Entre em contato via Whatsapp</p>
         </div>
     )
 
