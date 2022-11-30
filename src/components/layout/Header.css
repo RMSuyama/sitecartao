@@ -8,6 +8,7 @@
     text-align: center;
 }  */
 .theader{
+  height: 100%;
   /* margin:0;
   padding:0;
   box-sizing: border-box; */
@@ -46,6 +47,12 @@
   grid-area: header;
   height: 150px;
   width: 150px;
+  }
+
+  .linkRow{
+    display: flex;
+    width: 100%;
+    
   }
   
 
