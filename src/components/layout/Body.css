@@ -1,4 +1,4 @@
-.tbody{
+.tbody {
     text-indent: 5vw;
     text-align: justify;
     border-radius: 5px;
@@ -7,8 +7,5 @@
     line-height: 2vw;
     padding: 2.5vw;
     color: whitesmoke;
-    font-style:normal;
-
-    
+    font-style: normal;
 }
-

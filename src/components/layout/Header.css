@@ -1,12 +1,12 @@
 /* teste */
 .theader {
-  display: flex;
-  align-content: center;
+    display: flex;
+    align-content: center;
 }
 
 .logo {
-  display: flex;
-  height: 10vw;
-  width: 20vw;
-  filter: blur(0px);
+    display: flex;
+    height: 10vw;
+    width: 20vw;
+    filter: blur(0px);
 }
