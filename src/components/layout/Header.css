@@ -1,54 +1,12 @@
 /* teste */
-.theader{
-
+.theader {
   display: flex;
   align-content: center;
-  
-  
 }
 
-.logo{
+.logo {
   display: flex;
   height: 10vw;
   width: 20vw;
-  filter:blur(0px)
-
-  }
-  
-.Instagram{
-  height: 10vw;
-  width: 10vw;
-
- 
-
+  filter: blur(0px);
 }
-.insta{
-
-  height: 10vw;
-  width: 10vw;
-
-  
-
-
-}
-.Whatsapp{
-
-  height: 9.3vw;
-  width: 9.3vw;
-  margin-top: 1vw; 
-  margin-right: 2vw;
-
-
-}
-.whats{
-
-  height: 9.3vw;
-  width: 9.3vw;
-  margin-top: -0.5vw;
-  margin-right: 2vw;
-
-  }
-
-  
-
-  
