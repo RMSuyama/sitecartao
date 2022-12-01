@@ -12,7 +12,7 @@ function Header() {
 
         <img className='logo' src={rLetter} />
         
-        <div className='linkRow'>
+        {/* <div className='linkRow'>
               <a
               className="Whatsapp"
               href="https://api.whatsapp.com/send?phone=5513996267989"
@@ -29,7 +29,7 @@ function Header() {
             >
               <img className='insta' src={insta} />
             </a>          
-        </div>
+        </div> */}
       </div>
     )
 
