@@ -1,5 +1,4 @@
 /* teste */
-<<<<<<< HEAD
 .theader{
 
   display: flex;
@@ -19,22 +18,3 @@
 
   }
   
-.Instagram{
-  height: 10vw;
-  width: 10vw;
-
- 
-
-=======
-.theader {
-    display: flex;
-    align-content: center;
-}
-
-.logo {
-    display: flex;
-    height: 10vw;
-    width: 20vw;
-    filter: blur(0px);
->>>>>>> 4749dcf18353067d4cddfc7f379efbf837e5972e
-}
