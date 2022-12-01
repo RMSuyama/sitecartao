@@ -2,11 +2,13 @@
     text-indent: 5vw;
     text-align: justify;
     border-radius: 5px;
-    font-family: Nunito,sans-serif;
+    font-family: Nunito;
     font-size: 1.5vw;
     line-height: 2vw;
-    padding: 5vw;
+    padding: 2.5vw;
     color: whitesmoke;
+    font-style:normal;
+
     
 }
 
