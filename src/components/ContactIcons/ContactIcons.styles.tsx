@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import whats from './../layout/assets/whats.png'
-import insta from './../layout/assets/insta.png'
+import whats from '../../assets/whats.png'
+import insta from '../../assets/insta.png'
 
 export const LinkContainer = styled.div`
     position: fixed;

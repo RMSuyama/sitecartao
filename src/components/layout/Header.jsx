@@ -1,9 +1,5 @@
 import './Header.css'
-import rLetter from './assets/R.png'
-import whats from './assets/whats.png'
-import insta from './assets/insta.png'
-import {FaInstagramSquare} from "react-icons/fa";
-
+import rLetter from '../../assets/R.png'
 
 function Header() {
 
