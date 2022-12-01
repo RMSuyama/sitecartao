@@ -8,15 +8,14 @@
 .App{
 
   background-color: rgb(255, 255, 255);
-  grid-gap: 1.5vw;
+  grid-gap: 0.5vw;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-template-columns: 1fr 1fr 1fr 3fr 4fr;
   grid-template-areas: "header header header header header"
                           "main main main main main"
                           "footer footer footer footer footer";
-  
-                          
+                            
   }
  
 
