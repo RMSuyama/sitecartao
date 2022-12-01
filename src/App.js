@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import { ContactIcons } from './components/ContactIcons';
 import Body from './components/layout/Body';
 import Footer from './components/layout/Footer';
 // import Footer from './components/layout/Footer'
@@ -13,6 +14,7 @@ function App() {
   return (
     <>  
       <div className="App">
+        <ContactIcons />
         <div className='header'>
           <Header/>
         </div>
