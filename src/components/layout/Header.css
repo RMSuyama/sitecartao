@@ -2,15 +2,18 @@
 .theader{
 
   display: flex;
-  align-content: center;
+  align-items: center;
   
   
 }
 
 .logo{
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+  padding-left: 4vw;
   display: flex;
-  height: 10vw;
-  width: 20vw;
+  height: 15vw;
+  width: 8vw;
   filter:blur(0px)
 
   }

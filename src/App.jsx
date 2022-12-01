@@ -20,9 +20,7 @@ const App = () => {
         <main/>
         <Body/>
         </div>
-        <div className='aside'>
-        
-        </div>
+
         <div className='footer'>
         <Footer/>
         </div>
