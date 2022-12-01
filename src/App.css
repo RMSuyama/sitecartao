@@ -5,6 +5,7 @@
   
 } */
 
+<<<<<<< HEAD
 
 .App{
 
@@ -61,18 +62,67 @@
   border-radius: 0.6vw;
   
 
+=======
+.App {
+    padding: 1vw;
+    background-color: rgb(255, 255, 255);
+    grid-gap: 1.5vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr 3fr 4fr;
+    grid-template-areas:
+        'header header header header header'
+        'aside main main main main'
+        'footer footer footer footer footer';
+>>>>>>> 4749dcf18353067d4cddfc7f379efbf837e5972e
 }
 
-.footer{
+.header {
     backdrop-filter: blur(2px);
-  height: auto;
-  width: 100%;
-  justify-self: center;
-  align-self: center;
-  columns: 1/3;
-  background-color: rgb(0, 0, 0);
-  grid-area: footer;
-  box-shadow: 0 0 10px 1px #222;
-  border-radius: 0.6vw;
+    /* grid-column: 1/3; */
+    height: auto;
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(0, 0, 0);
+    grid-area: header;
+    opacity: 1;
+    box-shadow: 0 0 10px 1px #222;
+    border-radius: 0.6vw;
+}
 
+.main {
+    backdrop-filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(0, 0, 0);
+    grid-area: main;
+    box-shadow: 0 0 10px 1px #222;
+    border-radius: 0.6vw;
+}
+.aside {
+    backdrop-filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(0, 0, 0);
+    grid-area: aside;
+    box-shadow: 0 0 10px 1px #222;
+    border-radius: 0.6vw;
+}
+
+.footer {
+    backdrop-filter: blur(2px);
+    height: auto;
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    columns: 1/3;
+    background-color: rgb(0, 0, 0);
+    grid-area: footer;
+    box-shadow: 0 0 10px 1px #222;
+    border-radius: 0.6vw;
 }
