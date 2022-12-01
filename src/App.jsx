@@ -3,13 +3,11 @@ import './App.css'
 import { ContactIcons } from './components/ContactIcons';
 import Body from './components/layout/Body';
 import Footer from './components/layout/Footer';
-// import Footer from './components/layout/Footer'
-// import Body from './components/layout/Body'
 import Header from './components/layout/Header'
 
 
 
-function App() {
+const App = () => {
 
   return (
     <>  

@@ -10,7 +10,7 @@ export const ContactIcons = () => {
             />
             <InstaIcon
                 className="Instagram"
-                href="https://www.instagram.com/direct/inbox/"
+                href="https://ig.me/m/r.suyama"
                 target="_blank"
                 rel="noopener noreferrer"
             />
