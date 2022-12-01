@@ -3,44 +3,56 @@
 
   display: flex;
   align-content: center;
-  flex-direction: column 5;
-  flex-direction: row;
-  height: 100%;
-
+  
+  
 }
 
 .logo{
-
-  height: 300px;
-  width: 800px;
+  display: flex;
+  height: 25vw;
+  width: 50vw;
   filter:blur(0px)
+
   }
   
 .Instagram{
-  height: 100px;
-  width: 100px;
+  height: 10vw;
+  width: 10vw;
+
+ 
 
 }
 .insta{
 
-  height: 100px;
-  width: 100px;
+  height: 10vw;
+  width: 10vw;
+
+  
+
 
 }
 .Whatsapp{
 
-  height: 95px;
-  width: 95px;
+  height: 9.3vw;
+  width: 9.3vw;
+  margin-top: 1vw; 
+  margin-right: 2vw;
+
+
 }
 .whats{
 
-  height: 95px;
-  width: 95px;
+  height: 9.3vw;
+  width: 9.3vw;
+  margin-top: -0.5vw;
+  margin-right: 2vw;
+
   }
 
 .linkRow{
-
-  align-content: flex-end;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items:stretch;
   width: 100%;
     
   }

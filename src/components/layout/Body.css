@@ -1,12 +1,12 @@
 .tbody{
-    text-indent: 100px;
+    text-indent: 5vw;
     text-align: justify;
-    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
-    font-family: Cambria;
-    font-size: 30px;
-    line-height: 1;
-    padding: 20px 40px;
+    font-family: Nunito,sans-serif;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    padding: 5vw;
+    color: whitesmoke;
     
 }
 
