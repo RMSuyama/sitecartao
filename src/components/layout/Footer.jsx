@@ -1,14 +1,13 @@
 import './Footer.css'
 
 function Footer() {
-
-    return(
+    return (
         <div className="tfooter">
-        <h1> Espaço reservado para o Footer </h1>
-        <p>Advocacia e Consultoria Jurídica</p>
+            <p>Rafael Suyama</p>
+            <p>OAB nº 484.261</p>
+            <p>Advocacia e Consultoria Jurídica Previdenciária</p>
         </div>
     )
-
 }
 
 export default Footer

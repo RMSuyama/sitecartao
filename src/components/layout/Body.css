@@ -1,10 +1,11 @@
-.tbody{
-
-    background-color: rgb(145, 143, 143);
-    text-align: center;
-    border: 10px solid rgb(255, 255, 255);
-    padding: 500px;
-    margin: auto;
-    
+.tbody {
+    text-indent: 5vw;
+    text-align: justify;
+    border-radius: 5px;
+    font-family: Nunito;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    padding: 2.5vw;
+    color: whitesmoke;
+    font-style: normal;
 }
-

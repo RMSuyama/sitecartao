@@ -1,0 +1,20 @@
+/* teste */
+.theader{
+
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.logo{
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+  padding-left: 4vw;
+  display: flex;
+  height: 5vw;
+  width: 7.5vw;
+  filter:blur(0px)
+
+  }
+  
