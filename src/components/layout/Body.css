@@ -1,11 +1,13 @@
 .tbody {
-    text-indent: 5vw;
+    text-indent: 3vw;
     text-align: justify;
-    border-radius: 5px;
     font-family: Nunito;
-    font-size: 1.5vw;
-    line-height: 2vw;
-    padding: 2.5vw;
-    color: whitesmoke;
-    font-style: normal;
+    font-size: min(15px) max(30);
+    /* font-size: max(80px); */
+    /* font-size: max(30vw, 30px); */
+    /* font-size: min(max(16px, 4vw), 22px); */
+    line-height: 20px;
+    padding: 2.7vw;
+    color: #7a5c3c;
+
 }
