@@ -30,26 +30,23 @@
     position:fixed;
     background-color: #b08e6b;
     height: auto;
-    width: 97vw;
+    width: 100vw;
     box-shadow: 0 0 10px 1px #222;
-    margin-left: 0;
-    margin-top: 0px; 
+
 
 }
 
 .main {
     height: auto;
-    width: 100%;
+    width: 100vw;
     background-color:#e8c39e;
     box-shadow: 0 0 10px 1px #222;
-}
+  }
 
 
 .footer {
     height: auto;
-    width: 100%;
+    width: 100vw;
     box-shadow: 0 0 10px 1px #222;  
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+
 }

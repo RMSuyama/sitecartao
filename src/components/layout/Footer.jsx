@@ -10,9 +10,9 @@ function Footer() {
             <p>Advocacia e Consultoria Jurídica Previdenciária</p>
             </div>
         
-            <div className="ffoto">
+            {/* <div className="ffoto">
                 <img className="foto" src={foto} alt="foto" />
-            </div>
+            </div> */}
         </div>
     )
 }

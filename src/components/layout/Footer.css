@@ -1,7 +1,8 @@
 .tfuti{
     display: flex;
     flex-direction: reverse row;
-    justify-items:first baseline;
+    justify-items:end;
+    height: auto;
     
 
 }
@@ -13,27 +14,10 @@
     color: whitesmoke;
     font-size: min(10px) max(25);
     font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1vw;
-    padding: 1vw;
+    padding: 5vh;
     font-style: normal;
-       
+    height: auto;       
+    line-height: 4vh;
+
 }
 
-.ffoto{
-    position: absolute;
-    filter: blur(5px);
-    filter: brightness(0.4);
-    filter: contrast(200%);
-    filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
-    /* filter: grayscale(50%);
-    filter: hue-rotate(90deg);
-    filter: invert(75%);
-    filter: opacity(25%);
-    filter: saturate(30%);
-    filter: sepia(60%); */
-    display:flex;
-    padding: 3vh;
-    height: 25vh;
-    width: 10vw;
-    filter:blur(9px), drop-shadow(16px 16px 20px rgb(0, 0, 0)), brightness(0.4);
-}

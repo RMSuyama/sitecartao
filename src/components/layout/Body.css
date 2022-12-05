@@ -6,11 +6,20 @@
     /* font-size: max(80px); */
     /* font-size: max(30vw, 30px); */
     /* font-size: min(max(16px, 4vw), 22px); */
-    line-height: 20px;
-    padding: 2.7vw;
-    padding-top: 10vh;
+    line-height: 6vh;
     color: #7a5c3c;
+    width: 50vw;
+    padding-left: 25vw;
+    padding-top: 20vh;
+    
+
+    
 
 
 }
 
+.h1{
+
+    padding-bottom: 5vh;
+    color: aliceblue;
+}

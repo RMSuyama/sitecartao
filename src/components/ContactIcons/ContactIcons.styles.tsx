@@ -8,11 +8,11 @@ export const LinkContainer = styled.div`
     right: 0;
     z-index: 500;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 3vw;
-    margin-right: 3vw;
+    justify-content: flex;
+    margin-bottom: 0vw;
+    margin-right: 0vw;
     a:nth-child(1){
-        margin-right: 0vw;
+        margin-right: 0px;
     }
 `
 
