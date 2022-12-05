@@ -1,13 +1,16 @@
 .tbody {
     text-indent: 3vw;
     text-align: justify;
-    font-family: Nunito;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: min(15px) max(30);
     /* font-size: max(80px); */
     /* font-size: max(30vw, 30px); */
     /* font-size: min(max(16px, 4vw), 22px); */
     line-height: 20px;
     padding: 2.7vw;
+    padding-top: 10vh;
     color: #7a5c3c;
 
+
 }
+

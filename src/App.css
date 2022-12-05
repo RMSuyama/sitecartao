@@ -19,24 +19,26 @@
   } */
 
   .App{
-    background-color: rgb(255, 255, 255);
+    background-color: #b08e6b;
     display: flex;
-    grid-gap: 10px;
     flex-direction: column;
 
-    }
+}
 
 
 .header {
-  
-    height: auto;
-    width: 100%;
+    position:fixed;
     background-color: #b08e6b;
+    height: auto;
+    width: 97vw;
     box-shadow: 0 0 10px 1px #222;
+    margin-left: 0;
+    margin-top: 0px; 
+
 }
 
 .main {
-    height: 100vw;
+    height: auto;
     width: 100%;
     background-color:#e8c39e;
     box-shadow: 0 0 10px 1px #222;
@@ -46,6 +48,8 @@
 .footer {
     height: auto;
     width: 100%;
-    background-color: #b08e6b;
-    box-shadow: 0 0 10px 1px #222;
+    box-shadow: 0 0 10px 1px #222;  
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }

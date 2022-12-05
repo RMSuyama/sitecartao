@@ -2,8 +2,8 @@ import './Body.css'
 
 function Body() {
     return (
-        <div className="tbody">
-            <h1> O que é o Direito Previdenciário? </h1>
+        <><div className="tbody">
+            <h1> O que é o Direito Previdenciário?</h1>
             <p>
                 O direito previdenciário é uma área do direito público que estuda a regulamentação da Seguridade Social.
                 Seu objetivo é disciplinar a Previdência Social, definindo regras sobre o recolhimento de contribuições
@@ -21,6 +21,8 @@ function Body() {
 
             <p>Se você se interessou, entre em contato pelos links na tela!</p>
         </div>
+        
+</>
     )
 }
 

@@ -9,19 +9,23 @@ const App = () => {
   return (
     <>  
       <div className="App">
-        <ContactIcons />
-        <div className='header'>
-          <Header/>
-        </div>
-        <div className='main'>
-        <main/>
-        <Body/>
-        </div>
+          
+          <ContactIcons />
+          
+          <div className='header'>
+            <Header/>
+          </div>
+          
+          <div className='main'>
+            <main/>
+            <Body/>
+          </div>
 
-        <div className='footer'>
-        <Footer/>
-        </div>
-        </div></>
+          <div className='footer'>
+            <Footer/>
+          </div>
+      
+      </div></>
   );  
 }
 

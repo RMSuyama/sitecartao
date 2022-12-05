@@ -8,13 +8,14 @@
 }
 
 .logo{
-  padding-bottom: 2vw;
-  padding-top: 2vw;
-  padding-left: 4vw;
+  
+  padding-bottom: 0.5vw;
+  padding-top: 0.5vw;
+  padding-left: 0.5vw;
   display: flex;
   height: 5vw;
-  width: 7.5vw;
-  filter:blur(0px)
+  width: 7.7vw;
+  filter:blur(0.1px);
 
   }
   

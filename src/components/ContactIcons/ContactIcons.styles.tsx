@@ -12,13 +12,13 @@ export const LinkContainer = styled.div`
     margin-bottom: 3vw;
     margin-right: 3vw;
     a:nth-child(1){
-        margin-right: 15px;
+        margin-right: 0vw;
     }
 `
 
 const LinkIcon = styled.a`
-    height: 10vw;
-    width: 10vw;
+    height: 7vw;
+    width: 7vw;
     background-size: contain;
     background-repeat: no-repeat;
 
