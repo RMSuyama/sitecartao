@@ -3,20 +3,29 @@
     text-align: justify;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: min(15px) max(30);
-    line-height: 6vh;
-    color: #7a5c3c;
+    color: #494541;
     width: 80vw;
     padding-left: 10vw;
-    padding-top: 18vh;
+    padding-top: 25vh;
     padding-bottom: 10vh;
-
-    
-
+    line-height: 30px;
 
 }
 
-.h1{
+h2{
 
+    font-size: 24px;
+    color: #302c28;
+    text-transform: uppercase;
     padding-bottom: 5vh;
-    color: aliceblue;
+
+}
+
+h3{
+    padding-top: 10vh;
+    font-size: 24px;
+    color: #302c28;
+    text-transform: uppercase;
+    padding-bottom: 5vh;
+
 }

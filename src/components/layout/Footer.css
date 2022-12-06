@@ -1,23 +1,29 @@
 .tfuti{
     display: flex;
-    flex-direction: reverse row;
-    justify-items:end;
-    height: auto;
+    flex-direction: row;
+
+
     
 
 }
 
+.foto{
 
-.tfooter{
-    text-align: center;
-    font-size: 18px;
-    color: whitesmoke;
-    font-size: min(10px) max(25);
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 5vh;
-    font-style: normal;
-    height: auto;       
-    line-height: 4vh;
+    height: 150px;
+    width: 150px;
 
 }
+
+.tfooter{
+
+    padding: 10px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    color: #302c28;
+    line-height: 30px;
+
+
+}
+
 

@@ -19,8 +19,7 @@
   } */
 
   .App{
-    background-color: #b08e6b;
-    display: flex;
+     display: flex;
     flex-direction: column;
 
 }
@@ -28,7 +27,7 @@
 
 .header {
     position:fixed;
-    background-color: #b08e6b;
+    background-color: #ccc6c1;
     height: auto;
     width: 100vw;
     box-shadow: 0 0 10px 1px #222;
@@ -39,14 +38,16 @@
 .main {
     height: auto;
     width: 100vw;
-    background-color:#e8c39e;
+    background-color: #fcf7f3;
     box-shadow: 0 0 10px 1px #222;
   }
 
 
 .footer {
     height: auto;
-    width: 100vw;
+    /* width: 100vw; */
     box-shadow: 0 0 10px 1px #222;  
+    background-color: #ece6e1;
+
 
 }

@@ -14,9 +14,20 @@
   padding-top: 0.5vw;
   padding-left: 0.5vw;
   display: flex;
-  height: 5vw;
-  width: 7.7vw;
-  filter:blur(0.1px);
+  height: 90px;
+  width: 120px;
+  filter:blur(0.1px); 
+  
 
   }
+
+.topo{
+
+  color: #302c28;
+  text-indent: 1vw;
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-top: 1vh;
+
+}
   
