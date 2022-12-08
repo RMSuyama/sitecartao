@@ -1,10 +1,13 @@
 import './Body.css'
 
+
+
 function Body() {
     return (
         <><div className="tbody">
-            <h2> O que é o Direito Previdenciário?</h2>
+            <h2> INSS</h2>
             <p>
+                Quer se aposentar e não sabe como?
                 O direito previdenciário é uma área do direito público que estuda a regulamentação da Seguridade Social.
                 Seu objetivo é disciplinar a Previdência Social, definindo regras sobre o recolhimento de contribuições
                 sociais e normas para concessão de benefícios previdenciários, como aposentadoria, auxílio-doença e
@@ -27,6 +30,9 @@ function Body() {
             <p>Ele também recebe patrocínio da Eudora, pois os cabelos do Rafa, advogado, precisam ser bonitos.</p>
         </div>
         
+
+
+
 </>
     )
 }

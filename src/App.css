@@ -37,7 +37,6 @@
 
 .main {
     height: auto;
-    width: 100vw;
     background-color: #fcf7f3;
     box-shadow: 0 0 10px 1px #222;
   }
@@ -45,7 +44,6 @@
 
 .footer {
     height: auto;
-    /* width: 100vw; */
     box-shadow: 0 0 10px 1px #222;  
     background-color: #ece6e1;
 
