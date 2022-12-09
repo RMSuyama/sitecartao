@@ -6,6 +6,7 @@ import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
 
 const style = {
+
   position: 'absolute',
   top: '50%',
   left: '50%',
@@ -40,10 +41,12 @@ function ChildModal() {
       >
         <Box sx={{ ...style, width: 200 }}>
           <h2 id="child-modal-title">Poxa vida</h2>
-
+          
           <p id="child-modal-description">
             Caramba, para de ser curioso
-                      </p>
+          </p>
+
+
           <Button onClick={handleClose}>Voltar</Button>
         </Box>
       </Modal>
@@ -68,29 +71,44 @@ export default function Footer() {
 
                 
             <div className="tfooter">
+
+            {/* <Button onClick={handleOpen}>Clique aqui para saber mais</Button>
+                    <Modal
+                      open={open}
+                      onClose={handleClose}
+                      aria-labelledby="parent-modal-title"
+                      aria-describedby="parent-modal-description"
+                    >
+                      <Box sx={{ ...style, width: 400 }}>
+                        <h2 id="parent-modal-title">Te peguei</h2>
+                        <p id="parent-modal-description">
+                          Era mentira.
+                        </p>
+                        <ChildModal />
+                      </Box>
+                    </Modal> */}
+
+
+
+              <div className='haha'>
+
                 <p>Escritório localizado na rua Bolívia, nº 61, Vila Ribeirópolis, Registro/SP, CEP:11900-000.</p>
                 <p>OAB nº 484.261</p>
-                <p>Advocacia e Consultoria Jurídica Previdenciária</p>
+                <p>Advogado e Consultor Jurídico</p>
+
+              </div>
+
+              
+
+
+
+
+   
+
             </div>
 
 
-       
-      <Button onClick={handleOpen}>Clique aqui para saber mais</Button>
-      <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="parent-modal-title"
-        aria-describedby="parent-modal-description"
-      >
-        <Box sx={{ ...style, width: 400 }}>
-          <h2 id="parent-modal-title">Te peguei</h2>
-          <p id="parent-modal-description">
-            Era mentira.
-          </p>
-          <ChildModal />
-        </Box>
-      </Modal>
-
+    
   
     </div>
 

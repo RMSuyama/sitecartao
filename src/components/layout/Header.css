@@ -3,35 +3,53 @@
 
   display: flex;
   align-items:center;
-  justify-content: space-between; 
-    
+  justify-content: space-around; 
+  
+  
+      
 }
 
-.logoeletras{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+.nomeadv{
 
-.logo{
   
 
   display: flex;
-  height: 50px;
-  width: 80px;
-  filter:blur(0.0px); 
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  text-align: justify;
+ 
   
+        }
 
-  }
+        .logoeletras{
+          
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+        }
+
+        .logo{
+          height: 50px;
+          width: 80px;
+          
+          
+        }
+
+        .nomeadv{
+            text-align: center;
+            font-size: 10px;
+            
+            
+           
+        }
 
 .topo{
+    font-size: 14px;
+    
+  }
 
-  color: #302c28;
-  text-indent: 1vw;
-  text-align: justify;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-
-  font-size: 14px;
   
-}
 
+  

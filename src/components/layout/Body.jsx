@@ -5,7 +5,7 @@ import './Body.css'
 function Body() {
     return (
         <><div className="tbody">
-            <h2> INSS</h2>
+            <h2> INSS</h2>  
             <p>
                 Quer se aposentar e não sabe como?
                 O direito previdenciário é uma área do direito público que estuda a regulamentação da Seguridade Social.
@@ -24,14 +24,12 @@ function Body() {
 
             <p>Se você se interessou, entre em contato pelos links na tela!</p>
 
-            <h3> Patrocinadores</h3>
+            <h2> Patrocinadores</h2>
 
             <p>Este site recebe patrocínio da Coca-Cola. "Coca, todo mundo usa".</p>
             <p>Ele também recebe patrocínio da Eudora, pois os cabelos do Rafa, advogado, precisam ser bonitos.</p>
         </div>
-        
-
-
+  
 
 </>
     )

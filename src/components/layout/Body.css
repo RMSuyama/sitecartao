@@ -1,14 +1,17 @@
 .tbody {
+    display: flex;
+    flex-direction: column;
     text-indent: 3vw;
     text-align: justify;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: min(15px) max(30);
     color: #494541;
-    width: 80vw;
-    padding-left: 10vw;
-    margin-top: 100px;
+    width: 65vw;
+    margin-top: 80px;
     padding-bottom: 10vh;
     line-height: 30px;
+    margin-left: 95px;
+    
+
 
 }
 
@@ -18,6 +21,11 @@ h2{
     color: #302c28;
     text-transform: uppercase;
     padding-bottom: 5vh;
+    padding-top: 5vh;
+    filter: opacity(100%);
+    font-family: 'Martian Mono', monospace;
+
+
 
 }
 
@@ -27,5 +35,9 @@ h3{
     color: #302c28;
     text-transform: uppercase;
     padding-bottom: 5vh;
+    filter: opacity(100%);
+    font-family: 'Martian Mono', monospace;
+
+
 
 }

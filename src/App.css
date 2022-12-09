@@ -19,33 +19,40 @@
   } */
 
   .App{
-     display: flex;
+    display: flex;
     flex-direction: column;
+    background: url(assets/background.jpg)
 
 }
 
 
 .header {
     position:fixed;
-    background-color: #ccc6c1;
+    background-color:#c2a993;
     height: auto;
     width: 100vw;
     box-shadow: 0 0 10px 1px #222;
+    background: url(assets/naruto.png);
+    padding:15px;     
 
 
 }
 
 .main {
     height: auto;
-    background-color: #fcf7f3;
+    background-color: #f8e9db ;
     box-shadow: 0 0 10px 1px #222;
+    align-self: center;
+    width: 80vw;
+    margin-right: 50vw;
+    margin-left: 50vw;
   }
-
+  
 
 .footer {
     height: auto;
     box-shadow: 0 0 10px 1px #222;  
-    background-color: #ece6e1;
-
+    background-color: #c2a993;
+    background: url(assets/naruto.png)
 
 }

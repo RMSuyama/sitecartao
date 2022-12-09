@@ -22,13 +22,18 @@
 .tfooter{
 
     /* margin-bottom: 5vh; */
-    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    color: #302c28;
+    color: black;
     line-height: 30px;
     text-align: center;
+    display: flex;
+    justify-content: center;
   
 
 }
 
+.haha{
+
+
+}
 

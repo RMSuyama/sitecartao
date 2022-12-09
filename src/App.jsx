@@ -15,27 +15,22 @@ const App = () => {
           <ContactIcons />
           
           <div className='header'>
+
+            
             
           <Box
         sx={{
           p: 3,
-          // bgcolor: (theme) =>
-          //   theme.palette.mode === 'dark' ? '#101010' : 'grey.50',
-          color: (theme) =>
-            theme.palette.mode === 'dark' ? 'grey.300' : 'grey.800',
-          border: '1px solid',
-          borderColor: (theme) =>
-            theme.palette.mode === 'dark' ? 'grey.800' : 'grey.300',
-          borderRadius: 2,
           fontSize: '0.875rem',
           fontWeight: '700',
+          padding: '0px'
+
         }}
       >
               <Header/>
            </Box>
 
-
-
+ 
             
           </div>
           
@@ -43,16 +38,11 @@ const App = () => {
             <main/>
                 <Box sx={{
                     p: 3,
-                    // bgcolor: (theme) =>
-                    //   theme.palette.mode === 'dark' ? '#101010' : 'grey.50',
-                    color: (theme) =>
-                      theme.palette.mode === 'dark' ? 'grey.300' : 'grey.800',
-                    border: '1px solid',
-                    borderColor: (theme) =>
-                      theme.palette.mode === 'dark' ? 'grey.800' : 'grey.300',
+
                     borderRadius: 2,
                     fontSize: '0.875rem',
                     fontWeight: '700',
+                  
                      }}
                       >
                     <Body/> 
@@ -65,16 +55,9 @@ const App = () => {
 
           <Box sx={{
                     p: 3,
-                    // bgcolor: (theme) =>
-                    //   theme.palette.mode === 'dark' ? '#101010' : 'grey.50',
-                    color: (theme) =>
-                      theme.palette.mode === 'dark' ? 'grey.300' : 'grey.800',
-                    border: '1px solid',
-                    borderColor: (theme) =>
-                      theme.palette.mode === 'dark' ? 'grey.800' : 'grey.300',
-                    borderRadius: 2,
                     fontSize: '0.875rem',
                     fontWeight: '700',
+                    
                     }}
                 >
             <Footer/>
