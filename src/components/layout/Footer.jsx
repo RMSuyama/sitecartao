@@ -1,9 +1,10 @@
 import './Footer.css'
-import rLetter from '../../assets/R.png'
+import fotoza from '../../assets/FotoADV.png'
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
+import { textAlign } from '@mui/system';
 
 const style = {
 
@@ -31,7 +32,7 @@ function ChildModal() {
 
   return (
     <React.Fragment>
-      <Button onClick={handleOpen}>Clique aqui kkkk</Button>
+      <Button onClick={handleOpen}>No entanto, caso tenha interesse em deixar registrado para futuras possibilidades entre em contato via e-mail.</Button>
       <Modal
         hideBackdrop
         open={open}
@@ -39,11 +40,11 @@ function ChildModal() {
         aria-labelledby="child-modal-title"
         aria-describedby="child-modal-description"
       >
-        <Box sx={{ ...style, width: 200 }}>
-          <h2 id="child-modal-title">Poxa vida</h2>
+        <Box sx={{ ...style, width: 600, textAlign:"justify"}}>
+          <h2 id="child-modal-title">Obrigado pela consideração pelo nosso trabalho!</h2>
           
           <p id="child-modal-description">
-            Caramba, para de ser curioso
+            Envie a proposta via e-mail para "rafaelsuyamaadv@gmail.com" com o assunto "AGENDA DE PALESTRA", entrarei em contato o mais breve possível.
           </p>
 
 
@@ -63,6 +64,8 @@ export default function Footer() {
     setOpen(false);
   };
 
+  
+
   return (
     <div>
        
@@ -72,34 +75,43 @@ export default function Footer() {
                 
             <div className="tfooter">
 
-            {/* <Button onClick={handleOpen}>Clique aqui para saber mais</Button>
+                <Box className='blocoendfoto'>
+                        <img className='fotoza' src={fotoza} alt="Girl in a jacket" width="150" height="200"></img>
+                        <Box className='dadosadv'>
+
+                        <p>Rafael Moreira Suyama</p>
+                        <p>OAB nº 484.261</p>
+                        <p>Advogado e Consultor Jurídico</p>
+
+                        </Box>
+
+                        
+
+                        <Box className='dadoesc'>
+
+                          <p>Escritório localizado na rua Bolívia, nº 61, Vila Ribeirópolis, Registro/SP, CEP:11900-000.</p>
+
+
+                        </Box>  
+                </Box>
+
+              
+
+              <Button className="trabalheconosco" onClick={handleOpen}>Agendamento de Palestras</Button>
                     <Modal
                       open={open}
                       onClose={handleClose}
                       aria-labelledby="parent-modal-title"
                       aria-describedby="parent-modal-description"
                     >
-                      <Box sx={{ ...style, width: 400 }}>
-                        <h2 id="parent-modal-title">Te peguei</h2>
+                      <Box sx={{ ...style, width: 500 }}>
+                        <h2 id="parent-modal-title">Infelizmente, não dispomos de horário na agenda para agendamento de palestra para esse mês.</h2>
                         <p id="parent-modal-description">
-                          Era mentira.
+                          Agradecemos imensamente seu interesse.
                         </p>
                         <ChildModal />
                       </Box>
-                    </Modal> */}
-
-
-
-              <div className='haha'>
-
-                <p>Escritório localizado na rua Bolívia, nº 61, Vila Ribeirópolis, Registro/SP, CEP:11900-000.</p>
-                <p>OAB nº 484.261</p>
-                <p>Advogado e Consultor Jurídico</p>
-
-              </div>
-
-              
-
+                    </Modal>
 
 
 

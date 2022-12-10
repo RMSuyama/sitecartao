@@ -28,7 +28,6 @@
 
 .header {
     position:fixed;
-    background-color:#c2a993;
     height: auto;
     width: 100vw;
     box-shadow: 0 0 10px 1px #222;
@@ -52,7 +51,6 @@
 .footer {
     height: auto;
     box-shadow: 0 0 10px 1px #222;  
-    background-color: #c2a993;
     background: url(assets/naruto.png)
 
 }

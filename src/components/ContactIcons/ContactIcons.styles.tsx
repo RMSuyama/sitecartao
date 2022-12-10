@@ -17,8 +17,8 @@ export const LinkContainer = styled.div`
 `
 
 const LinkIcon = styled.a`
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     background-size: contain;
     background-repeat: no-repeat;
 

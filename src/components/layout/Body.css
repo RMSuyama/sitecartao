@@ -5,11 +5,12 @@
     text-align: justify;
     font-size: min(15px) max(30);
     color: #494541;
-    width: 65vw;
+    width: vw;
     margin-top: 80px;
     padding-bottom: 10vh;
     line-height: 30px;
-    margin-left: 95px;
+    margin-left: 10vw;
+    margin-right: 10vw;
     
 
 
@@ -21,8 +22,7 @@ h2{
     color: #302c28;
     text-transform: uppercase;
     padding-bottom: 5vh;
-    padding-top: 5vh;
-    filter: opacity(100%);
+    padding-top: 8vh;
     font-family: 'Martian Mono', monospace;
 
 

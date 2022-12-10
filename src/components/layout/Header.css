@@ -2,54 +2,54 @@
 .theader{
 
   display: flex;
+  flex-direction: row;
   align-items:center;
-  justify-content: space-around; 
+  justify-content: space-between;
   
   
       
 }
 
-.nomeadv{
 
-  
 
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  color: black;
-  text-align: justify;
- 
-  
-        }
+       
 
         .logoeletras{
           
           display: flex;
           flex-direction: row;
-          align-items: center;
+          justify-content: flex-start;
 
         }
 
-        .logo{
-          height: 50px;
-          width: 80px;
+                .nomeadv{
+        
+                  display: flex;
+                  justify-content: center;
+                  flex-direction: column;
+                  color: black;
+                  text-align: center;
+                  font-size: 10px;
           
-          
+                }
+
+                .topo{
+                  font-size: 14px;
+                  
+                }
+
+                .logo{
+                  height: 50px;
+                  width: 80px;
+                            
+                }
+
+
+        .botoes{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: auto;
         }
-
-        .nomeadv{
-            text-align: center;
-            font-size: 10px;
-            
-            
-           
-        }
-
-.topo{
-    font-size: 14px;
-    
-  }
-
-  
 
   

@@ -1,39 +1,53 @@
-.bob{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-       
-}
 
-.logo1{
 
-    padding-bottom: 0.5vw;
-    padding-top: 0.5vw;
-    padding-left: 0.5vw;
-    padding-right: 0px;
-    display: flex;
-    height: 50px;
-    width: 80px;
-    filter:blur(0.0px); 
-    
-
-}
 
 .tfooter{
+
+    display: flex;
+    flex-direction: column;
 
     /* margin-bottom: 5vh; */
     font-style: normal;
     color: black;
     line-height: 30px;
     text-align: center;
-    display: flex;
-    justify-content: center;
+
   
 
 }
 
-.haha{
+    .dadosadv{
+        padding-top: 4vh;
+        text-indent: 3vh;
 
+
+    }
+
+    .dadoesc{
+
+    width: 50vw;
+    padding-left: 8vw;
+    padding-top: 4vh;
+    text-indent: 3vh;
+    }
+
+.trabalheconosco{
+
+    margin-top: 100px;
+    padding-bottom: 20vh;
 
 }
 
+.blocoendfoto{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fotoza{
+
+    border-radius: 5px;
+    border-style:ridge;
+    border-color: black;
+}
