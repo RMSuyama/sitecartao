@@ -87,12 +87,12 @@ export default function Footer() {
 
                         
 
-                        <Box className='dadoesc'>
+                        {/* <Box className='dadoesc'>
 
                           <p>Escritório localizado na rua Bolívia, nº 61, Vila Ribeirópolis, Registro/SP, CEP:11900-000.</p>
 
 
-                        </Box>  
+                        </Box>   */}
                 </Box>
 
               
