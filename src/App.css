@@ -1,22 +1,4 @@
-/* .App{
-  display:grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 20vh 70vh 10vh;
-  
-} */
-
-/* .App{
-
-  background-color: rgb(255, 255, 255);
-  grid-gap: 1vw;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-template-columns: 1fr 1fr 1fr 3fr 4fr;
-  grid-template-areas: "header header header header header"
-                          "main main main main main"
-                          "footer footer footer footer footer";
-                   
-  } */
+/* git commit -m "docs(CHANGELOG): correct spelling" */
 
   .App{
     display: flex;
