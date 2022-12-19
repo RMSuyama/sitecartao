@@ -3,17 +3,23 @@
   .App{
     display: flex;
     flex-direction: column;
-    background: url(assets/background.jpg)
 
 }
 
+.ghostdiv{
+  background-color: blue;
+  height: auto;
+  width: 100vw;
+  box-shadow: 0 0 10px 1px #222;
+  padding:15px;     
 
+}
 .header {
+    background-color: rgb(202, 177, 124);
     position:fixed;
     height: auto;
     width: 100vw;
     box-shadow: 0 0 10px 1px #222;
-    background: url(assets/naruto.png);
     padding:15px;     
 
 
@@ -24,16 +30,15 @@
     background-color: #f8e9db ;
     box-shadow: 0 0 10px 1px #222;
     align-self: center;
-    width: 80vw;
-    margin-right: 50vw;
-    margin-left: 50vw;
+    width: 95vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
   }
   
 
 .footer {
     height: auto;
     box-shadow: 0 0 10px 1px #222;  
-    background: url(assets/naruto.png)
     
 
 }

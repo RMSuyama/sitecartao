@@ -1,28 +1,29 @@
+.bshape{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
 .tbody {
     display: flex;
     flex-direction: column;
     text-indent: 3vw;
     text-align: justify;
-    font-size: min(15px) max(30);
     color: #494541;
     width: vw;
-    margin-top: 80px;
     padding-bottom: 10vh;
     line-height: 30px;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 10px;
 
 
 }
 
 h2{
 
-    font-size: 24px;
     color: #302c28;
     text-transform: uppercase;
     padding-bottom: 5vh;
-    padding-top: 8vh;
     font-family: 'Martian Mono', monospace;
 
 
@@ -30,8 +31,7 @@ h2{
 }
 
 h3{
-    padding-top: 10vh;
-    font-size: 24px;
+
     color: #302c28;
     text-transform: uppercase;
     padding-bottom: 5vh;

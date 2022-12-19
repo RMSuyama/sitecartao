@@ -6,13 +6,9 @@
   align-items:center;
   justify-content: space-between;
   
-  
-      
+        
 }
-
-
-
-       
+      
 
         .logoeletras{
           
@@ -28,16 +24,20 @@
                   justify-content: center;
                   flex-direction: column;
                   color: black;
-                  text-align: center;
-                  font-size: 10px;
-          
-                }
-
-                .topo{
-                  font-size: 14px;
+                  
                   
                 }
+                  
+                  .nomeadv{
+                  font-size: 8px;
+                  }
 
+                  .topo{
+                  font-size: 10px;
+                  }
+                  
+             
+        
                 .logo{
                   height: 50px;
                   width: 80px;
@@ -47,9 +47,9 @@
 
         .botoes{
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        margin: auto;
-        }
+        justify-content: flex-end;
+        margin-right: 50px;
+
+      }
 
   

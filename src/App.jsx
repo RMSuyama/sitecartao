@@ -21,12 +21,10 @@ const App = () => {
           <Box
         sx={{
           p: 3,
-          fontSize: '0.875rem',
-          fontWeight: '700',
           padding: '0px'
 
         }}
-      >
+      >       <div ClassName="ghostdiv"> </div>
               <Header/>
            </Box>
 
@@ -37,11 +35,9 @@ const App = () => {
           <div className='main'>
             <main/>
                 <Box sx={{
-                    p: 3,
+                    p: 1,
 
                     borderRadius: 2,
-                    fontSize: '0.875rem',
-                    fontWeight: '700',
                   
                      }}
                       >
@@ -54,8 +50,7 @@ const App = () => {
           <div className='footer'>
 
           <Box sx={{
-                    p: 3,
-                    fontSize: '0.875rem',
+                    p: 1,
                     fontWeight: '700',
                     
                     }}
